@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Banner Responsive</title>
+    <link href="fonts/bootstrapicon/font/bootstrap-icons.css" type="text/css" rel="stylesheet">
+    <link href="css/banner.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- banner -->
+    <section class="banner">
+        <div class="banner_wrapper">
+            <div class="swiper banner_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="overlay"></div>
+                        <figure>
+                            <img src="images/bg1.jpg" alt="title" class="w-100">
+                            <figcaption>
+                                <div class="banner_content">
+                                    <h1>Blooming Beauty Your Beauty is Our Inspiration.</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore
+                                        et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                    <a href="#" class="btn theme_btn">Book An Appointment</a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="overlay"></div>
+                        <figure>
+                            <img src="images/bg2.jpg" alt="title" class="w-100">
+                            <figcaption>
+                                <div class="banner_content">
+                                    <div class="banner_info">
+                                        <h1>Blooming Beauty Your Beauty is Our Inspiration.</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <a href="#" class="btn theme_btn">Book An Appointment</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="overlay"></div>
+                        <figure>
+                            <img src="images/bg3.jpg" alt="title" class="w-100">
+                            <figcaption>
+                                <div class="banner_content">
+                                    <div class="banner_info">
+                                        <h1>Blooming Beauty Your Beauty is Our Inspiration.</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. </p>
+                                        <a href="#" class="btn theme_btn">Book An Appointment</a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper_nav"></div>
+                <div class="swiper-button-prev swiper_nav"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/swiper/swiper.min.js"></script>
+    <script>
+        //   banner
+        var swiper = new Swiper(".banner_slider", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {
+                delay: 5000,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
